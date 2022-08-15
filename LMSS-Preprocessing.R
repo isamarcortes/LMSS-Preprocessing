@@ -1,3 +1,6 @@
+#Authors: Priscilla Baltezar & Isamar Cortes
+#Date 8-15-22
+
 library(dplyr)
 
 root_dir <- glue::glue(
@@ -5,7 +8,7 @@ root_dir <- glue::glue(
   "Bulk Order South East Asia - Myanmar, Thailand, Cambodia/", 
   "Landsat 1-5 MSS C2 L1/output/"#where my already untarred files live
 )
-
+#
 # use this when you need to untar the files in the directory first
 # dir_tar <- list.files(path = root_dir, pattern = "*.tar", exdir = "~./output") %>% lapply(., untar)
 # #list only tif files
